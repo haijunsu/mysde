@@ -2,7 +2,7 @@
      define subcomponents such as "Valves" at this level.
      Documentation at /docs/config/server.html
  -->
-<Server port="8005" shutdown="SHUTDOWN">
+<Server port="@SERVER_PORT@" shutdown="SHUTDOWN">
 
   <!--APR library loader. Documentation at /docs/apr.html -->
   <Listener className="org.apache.catalina.core.AprLifecycleListener" SSLEngine="on" />
@@ -68,7 +68,7 @@
     -->
 
     <!-- Define an AJP 1.3 Connector on port 8009 -->
-    <Connector port="8009" protocol="AJP/1.3" redirectPort="@SSL_PORT@" />
+    <Connector port="@AJP_PORT@" protocol="AJP/1.3" redirectPort="@SSL_PORT@" />
 
 
     <!-- An Engine represents the entry point (within Catalina) that processes

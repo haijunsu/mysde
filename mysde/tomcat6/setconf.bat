@@ -3,6 +3,7 @@ call setEnv.bat
 md conf
 md conf\catalina
 md conf\catalina\localhost\
+md temp
 md webapps
 md webapps\manager
 md webapps\host-manager

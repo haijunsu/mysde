@@ -1,6 +1,8 @@
 @echo off
 call setEnv.bat
 md conf
+md conf\catalina
+md conf\catalina\localhost\
 md webapps
 md webapps\manager
 md webapps\host-manager

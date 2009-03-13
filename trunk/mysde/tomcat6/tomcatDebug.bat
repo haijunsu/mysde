@@ -13,6 +13,7 @@ rem distributed under the License is distributed on an "AS IS" BASIS,
 rem WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 rem See the License for the specific language governing permissions and
 rem limitations under the License.
+call setEnv.bat
 
 if "%OS%" == "Windows_NT" setlocal
 rem ---------------------------------------------------------------------------

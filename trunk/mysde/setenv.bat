@@ -28,6 +28,7 @@ rem doskey cp=copy $*
 rem doskey mv=move $*
 rem doskey vi=vim $*
 rem doskey scp=pscp $*
+rem %WORK_HOME:~0,2%$T is used to change disk partition.
 doskey cdhome=%WORK_HOME:~0,2%$Tcd %WORK_HOME%
 doskey cddev=%DEV_HOME:~0,2%$Tcd %DEV_HOME%
 

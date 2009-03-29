@@ -14,13 +14,14 @@ set USERPATH=%WORK_HOME%
 REM set APPs Home
 set APACHE_HOME=%APP_HOME%\Apache2.2
 set MAVEN_HOME=%APP_HOME%\apache-maven-2.0.9
+set M2_HOME=%MAVEN_HOME%
 set TOMCAT_HOME=%APP_HOME%\apache-tomcat-6.0.18
 set JAVA_HOME=%APP_HOME%\jdk\jdk1.6.0_12
 set SVN_HOME=%APP_HOME%\svn-win32-1.5.5
 set MYSQL_HOME=%APP_HOME%\mysql-5.1.31-win32
 set PGSQL_HOME=%APP_HOME%\pgsql-8.3.1
 
-set path=%CYGWIN_HOME%\bin;%MAVEN_HOME%\bin;%JAVA_HOME%\bin;%MYSQL_HOME%\bin;%PGSQL_HOME%\bin;%SVN_HOME%\bin;%APP_HOME%\dostools;%APACHE_HOME%\bin;%FREE_COMMANDER_HOME%\tools\vim\vim72;%WORK_HOME%;%path%
+set path=%WORK_HOME%\mvn;%CYGWIN_HOME%\bin;%MAVEN_HOME%\bin;%JAVA_HOME%\bin;%MYSQL_HOME%\bin;%PGSQL_HOME%\bin;%SVN_HOME%\bin;%APP_HOME%\dostools;%APACHE_HOME%\bin;%FREE_COMMANDER_HOME%\tools\vim\vim72;%WORK_HOME%;%path%
 
 rem doskey ls=dir $*
 rem doskey rm=del $*

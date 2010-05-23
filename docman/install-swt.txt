@@ -1,0 +1,18 @@
+mvn install:install-file -DgroupId=org.eclipse -DartifactId=swt -Dversion=3.5.2 -Dpackaging=jar -Dfile=swt.jar
+
+mvn deploy:deploy-file -DgroupId=org.eclipse -DartifactId=swt-win32-x86 -Dversion=3.5.2 -Dpackaging=jar -Dfile=swt.jar -Durl=http://localhost:8081/nexus/content/repositories/thirdparty -DrepositoryId=thirdparty
+
+pom文件内容
+<?xml version="1.0" encoding="utf-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.eclipse</groupId>
+  <artifactId>swt-win32-x86</artifactId>
+  <version>3.5.2</version>
+  <packaging>jar</packaging>
+  <dependencies>
+    <!-- no dependencies -->
+  </dependencies>
+</project>

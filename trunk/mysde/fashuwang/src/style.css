@@ -1,0 +1,27 @@
+body,td,th {
+	font-family: tahoma;
+	font-size: 11px;
+	color: #737373;
+	vertical-align: top;	
+	line-height:11px;
+}
+img{border:0;}
+a {
+	font-family: tahoma;
+	font-size: 11px;	
+	color: #4F4F4F;		
+}
+a:visited {
+	color: #4F4F4F;
+}
+a:hover {
+	color: #4F4F4F;
+}
+a:active {
+	color: #4F4F4F;	
+}
+.style-s{
+	color:#737373;
+}
+
+

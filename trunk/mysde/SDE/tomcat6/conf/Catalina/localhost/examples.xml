@@ -1,0 +1,1 @@
+<Context path="/examples" reloadable="true" docBase="${catalina.home}/webapps/examples"/>

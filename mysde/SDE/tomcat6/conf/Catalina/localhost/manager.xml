@@ -1,0 +1,1 @@
+<Context path="/manager" privileged="true" reloadable="false" antiJARLocking="false" antiResourceLocking="false" docBase="${catalina.home}/webapps/manager"/>

@@ -4,7 +4,7 @@ Created on Sep 25, 2011
 @author: ehaijsu
 '''
 from intf import FileHandler
-from util import FileUtil
+from util import TextFileReader
 
 class Study(FileHandler):
     def __init__(self, fileName):
@@ -17,5 +17,5 @@ class Study(FileHandler):
 if __name__ == '__main__':
     print "hello world!"
     t = Study("/Data/CNM5_PB4/application-management-easa_default.log")
-    futil = FileUtil(t.fileName)
+    futil = TextFileReader(t.fileName)
     futil.readlines(t)
